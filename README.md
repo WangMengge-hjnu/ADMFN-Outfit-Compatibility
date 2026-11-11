@@ -6,7 +6,7 @@ Reference implementation of the main experiment on one-way skeleton-conditioned 
 
 | File | Purpose |
 | --- | --- |
-| `code/model_multimodal_fusion.py` | Model definition, multimodal dataset, training and evaluation used in the main experiment |
+| `model_multimodal_fusion.py` | Model definition, multimodal dataset, training and evaluation used in the main experiment |
 | `requirements.txt` | Python dependencies |
 | `README.md` | This document |
 
