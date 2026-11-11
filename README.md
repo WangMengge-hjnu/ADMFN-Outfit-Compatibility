@@ -44,11 +44,11 @@ ADMFN_DATA_ROOT      root containing the extracted feature folders and labels/
 ## Reproducing the experiment
 
 ```
-python code/model_multimodal_fusion.py
+python model_multimodal_fusion.py
 ```
 
 `RUN_TAG` appends a suffix to the log, curve and checkpoint names so that several configurations can be run without overwriting each other, and `GATE_BIAS` sets the initial gate logit. The seed is fixed at 42. Logs, curves and checkpoints are written to the working directory and excluded from version control.
 
 ## Notes
 
-Only the main experiment is provided here. Model checkpoints, raw images, annotations, training logs and auxiliary scripts (label construction, ablations, gate-factor analysis and figure generation) are intentionally not included. A license should be selected when the GitHub repository is created.
+Only the main experiment is provided here. Model checkpoints, raw images, annotations, training logs and auxiliary scripts (label construction, ablations, gate-factor analysis and figure generation) are intentionally not included. 
